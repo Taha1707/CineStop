@@ -3,27 +3,15 @@
     body {
         background-color: black;
         color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
     }
 
     
-    h1{
-        font-family: "Poppins", sans-serif;
-        font-weight: 650px;
-        font-style: normal;
-        font-size: 80px;
-    }
-
-    h2{
-        font-family: "Poppins", sans-serif;
-        font-weight: 300px;
-        font-style: normal;
-        font-size: 22px;
-    }
 
     span{
         color: goldenrod;
-        font-family: "Lobster", sans-serif;
-        font-weight: 400;
         font-style: normal;
     }
     /* END OF GENERAL */
@@ -78,10 +66,8 @@
     }
 
     .list-items a:hover {
-        
         color: gold;
         transition: 0.5s;
-
     }
 
     #nav-sign {
@@ -124,8 +110,6 @@
     /* START OF ABOUT PAGE */
 
 
-
-
      #about-banner-button {
         padding: 10px;
         padding-right: 15px;
@@ -148,6 +132,30 @@
         border: 2px solid goldenrod;
     }
 
+
+        
+    .card-holder {
+        width: 280px;
+        height: 345px;
+        background: linear-gradient(to bottom right, #000000 30%, #4a3b00 100%);
+        border-radius: 10px;
+        margin: 10px;
+        border: 1.5px solid #B8860B;
+        transition: 0.5s;
+        display: inline-block;
+    }
+    
+   
+
+    .card-holder h3 {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    .card-holder:hover{
+        transform: scale(1.03);
+      
+    }
 
 
        
