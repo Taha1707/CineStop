@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .contact-heading{
+            font-family: "Poppins", sans-serif;
+            font-weight: 500px;
+            font-style: normal;
+            font-size: 50px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .contact-main{
+            padding: 10px 200px 10px 100px;
+        }
+
+        .contact-right{
+            float: right;
+        }
+
+        label{
+            font-family: "Poppins", sans-serif;
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        input{
+            font-family: "Poppins", sans-serif;
+            width: 300px;
+            padding: 6px;
+            font-size: 15px;
+            background-color: transparent;
+            color: aliceblue;
+            border: 2px solid rgba(40, 40, 40, 0.813);
+        }
+
+        select{
+            font-family: "Poppins", sans-serif;
+            width: 315px;
+            padding: 6px;
+            font-size: 15px;
+            background-color: transparent;
+            border: 2px solid rgba(40, 40, 40, 0.813);
+        }
+
+        #submit {
+            padding: 8px 6px 8px 6px;
+            width: 315px;
+            font-size: 16px;
+            letter-spacing: 5px;
+            font-weight: bolder;
+            color: white ;
+            background-color: goldenrod;
+            border: 2px solid goldenrod;
+        }
+
+        #submit:hover {
+            color: goldenrod;
+            background-color: transparent;
+            border: 2px solid goldenrod;
+            transition: all 0.5s;
+
+        }
+
+        .contact-left{
+            float: left;
+            width: 500px;
+        }
+
+        .contact-left-heading{
+            font-family: "Poppins", sans-serif;
+            font-weight: 300px;
+            font-style: normal;
+            font-size: 26px;
+            line-height: 10px;
+        }
+
+        .contact-left-para{
+            font-family: "Poppins", sans-serif;
+            margin-bottom: 50px;
+        }
+        
+        .icon-list{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        .fa-brands{
+            border: 2px solid transparent;
+            background-color: transparent;
+            border-radius: 100%;
+            padding: 8px;
+            transition: 0.5s;
+        }
+
+        .fa-brands:hover{
+            color: white;
+            border: 2px solid goldenrod;
+            border-radius: 100%;
+            background-color: goldenrod;
+            transition: 0.5s;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul class="main-list">
+            <div class="poppins-medium ">
+                <li class="list-items">
+                    <a href="#" id="logo" class="bbh-bartle-regular">CINE.</a>
+                </li>
+
+                <li class="list-items">
+                    <a href="#">HOME</a>
+                </li>
+                <li class="list-items">
+                    <a href="#">CATEGORIES</a>
+                </li>
+                <li class="list-items">
+                    <a href="about.html">ABOUT</a>
+                </li>
+                <li class="list-items">
+                    <a href="#">CONTACT</a>
+                </li>
+                <li class="list-items">
+                    <a href="#" id="nav-sign">SIGN UP</a>
+                </li>
+                </li>
+
+            </div>
+        </ul>
+    </nav>
+
+    <br><br><br>
+        
+    <div>
+        <h1 class= "contact-heading">CONTACT & SUPPORT</h1>  
+    </div>
+
+
+    <div class="contact-main">
+        <div class="contact-left">
+            <h2 class= "contact-left-heading">Get In Touch</h2>
+            <p class = "contact-left-para">At CINESTOP, we value your feedback and are always here to help. Whether you have a question, need support, want to report a bug, or simply wish to share your thoughts, our team is ready to listen. Your input helps us improve our platform and deliver a better experience for every user. Please fill out the form below, and we’ll get back to you as soon as possible.</p>
+        
+            <h2 class= "contact-left-heading">Quick Links</h2>
+            <ul class="icon-list">
+                <li><i class="fa-brands fa-twitter" style="font-size: 20px;"></i></li>
+                <li><i class="fa-brands fa-whatsapp" style="font-size: 22px; font-weight: bold;"></i></li>
+                <li><i class="fa-brands fa-google" style="font-size: 20px;"></i></li>
+                <li><i class="fa-brands fa-instagram" style="font-size: 22px; font-weight: bold;"></i></li>
+            </ul>
+
+        </div>
+        
+        <div class="contact-right">
+            <form class="form">
+                <label for="name">Name</label><br>
+                <input type="text" placeholder="Enter Name" required>
+                <br><br>
+                <label for="email">Email</label><br>
+                <input type="email" placeholder="Enter Email" required>
+                <br><br>
+                <label for="email">Issue Type</label><br>
+                <select placeholder="Issue Type" required>
+                    <option value=""></option>
+                    <option>General Contact</option>
+                    <option>Bug Report</option>
+                    <option>Feedback</option>
+                    <option>Support Request</option>
+                    <option>None</option>
+                </select>
+                <br><br>
+                <label for="name">Message</label><br>
+                <input type="text" placeholder="Enter Message" required>
+                <br><br>
+                <button id="submit">SUBMIT FORM</button>
+            </form>
+        </div>
+    </div>
+    <br><br>
+    <div>
+        <footer >
+            <center>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <input type="email" placeholder="Email Address" style="width: 500px; height: 30px; padding: 5px; border: 2px solid rgba(40, 40, 40, 0.813); background-color: transparent; color: white;" >
+            <a  id="about-banner-button" href="mailto:cinestop@gmail.com" style="text-decoration: none;"> SUBSCRIBE </a>
+            <p style="font-size: small; color: lightgrey;">© 2025 Copyright: Cinestop</p>
+            </center>
+        </footer> 
+    </div>
+    
+</body>
+
+</html>
