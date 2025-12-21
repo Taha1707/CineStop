@@ -1,0 +1,153 @@
+    
+    /* GENERAL */
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    
+    h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 650px;
+        font-style: normal;
+        font-size: 80px;
+    }
+
+    h2{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300px;
+        font-style: normal;
+        font-size: 22px;
+    }
+
+    span{
+        color: goldenrod;
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    /* END OF GENERAL */
+
+    /* FONTS */
+    .bbh-bartle-regular {
+        font-family: "BBH Bartle", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .lobster-regular {
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+    /* END OF FONTS */
+
+
+    /* START OF NAVBAR */
+    .navbar{
+        position: absolute;
+        z-index: 9;
+        width: 100%;
+        right: 10px;
+    }
+
+    .main-list {
+        list-style: none;
+        margin-top: 19px;
+    }
+
+    .list-items {
+        padding: 5px;
+        margin: 14px;
+        display: inline;
+    }
+
+    .list-items a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+
+    }
+
+    .list-items a:hover {
+        
+        color: gold;
+        transition: 0.5s;
+
+    }
+
+    #nav-sign {
+        float: right;
+        padding: 4px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 25px;
+        letter-spacing: 1px;
+        color: goldenrod;
+        background-color: transparent;
+        border: 2px solid goldenrod;
+        margin-top: 0 !important;
+
+
+    }
+
+    #nav-sign:hover {
+        color: white;
+        background-color: goldenrod;
+        border: 2px solid goldenrod;
+        transition: all 0.5s;
+
+    }
+
+    #logo {
+        font-size: 1.7em;
+        color: goldenrod;
+
+    }
+
+    #logo:hover {
+        color: white;
+        transition: all 0.5s;
+    }
+
+
+    /* END OF NAVBAR */
+
+    /* START OF ABOUT PAGE */
+
+
+
+
+     #about-banner-button {
+        padding: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 25px;
+        letter-spacing: 1.5px;
+        color: white;
+        background-color: goldenrod;
+        border: 2px solid goldenrod;
+        margin-top: 0 !important;
+        transition: all 0.5s;
+        font-weight: 650;
+        font-size: 14px;
+
+    }
+
+    #about-banner-button:hover{
+        color: goldenrod;
+        background-color: transparent;
+        border: 2px solid goldenrod;
+    }
+
+
+
+       
