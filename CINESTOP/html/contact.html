@@ -21,24 +21,7 @@
             font-family: "Poppins", sans-serif;
         }
 
-        .contact-heading{
-            font-family: "Poppins", sans-serif;
-            font-weight: 500px;
-            font-style: normal;
-            font-size: 50px;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-        }
-
-        .contact-main{
-            padding: 10px 200px 10px 100px;
-        }
-
-        .contact-right{
-            float: right;
-        }
-
+      
         label{
             font-family: "Poppins", sans-serif;
             font-size: 18px;
@@ -47,7 +30,7 @@
 
         input{
             font-family: "Poppins", sans-serif;
-            width: 300px;
+            width: 400px;
             padding: 6px;
             font-size: 15px;
             background-color: transparent;
@@ -57,7 +40,7 @@
 
         select{
             font-family: "Poppins", sans-serif;
-            width: 315px;
+            width: 415px;
             padding: 6px;
             font-size: 15px;
             background-color: transparent;
@@ -66,7 +49,7 @@
 
         #submit {
             padding: 8px 6px 8px 6px;
-            width: 315px;
+            width: 415px;
             font-size: 16px;
             letter-spacing: 5px;
             font-weight: bolder;
@@ -83,28 +66,11 @@
 
         }
 
-        .contact-left{
-            float: left;
-            width: 500px;
-        }
-
-        .contact-left-heading{
-            font-family: "Poppins", sans-serif;
-            font-weight: 300px;
-            font-style: normal;
-            font-size: 26px;
-            line-height: 10px;
-        }
-
-        .contact-left-para{
-            font-family: "Poppins", sans-serif;
-            margin-bottom: 50px;
-        }
-        
+       
         .icon-list{
             list-style: none;
             display: flex;
-            gap: 20px;
+            gap: 10px;
             padding: 10px;
         }
 
@@ -138,7 +104,7 @@
                 </li>
 
                 <li class="list-items">
-                    <a href="#">HOME</a>
+                    <a href="home.html">HOME</a>
                 </li>
                 <li class="list-items">
                     <a href="#">CATEGORIES</a>
@@ -147,7 +113,7 @@
                     <a href="about.html">ABOUT</a>
                 </li>
                 <li class="list-items">
-                    <a href="#">CONTACT</a>
+                    <a href="contact.html">CONTACT</a>
                 </li>
                 <li class="list-items">
                     <a href="#" id="nav-sign">SIGN UP</a>
@@ -167,10 +133,10 @@
 
     <div class="contact-main">
         <div class="contact-left">
-            <h2 class= "contact-left-heading">Get In Touch</h2>
+            <h2 class= "contact-left-heading">Get In <span> Touch </span></h2>
             <p class = "contact-left-para">At CINESTOP, we value your feedback and are always here to help. Whether you have a question, need support, want to report a bug, or simply wish to share your thoughts, our team is ready to listen. Your input helps us improve our platform and deliver a better experience for every user. Please fill out the form below, and we’ll get back to you as soon as possible.</p>
         
-            <h2 class= "contact-left-heading">Quick Links</h2>
+            <h2 class= "contact-left-heading"> <span>Quick </span> Links</h2>
             <ul class="icon-list">
                 <li><i class="fa-brands fa-twitter" style="font-size: 20px;"></i></li>
                 <li><i class="fa-brands fa-whatsapp" style="font-size: 22px; font-weight: bold;"></i></li>
@@ -189,8 +155,8 @@
                 <input type="email" placeholder="Enter Email" required>
                 <br><br>
                 <label for="email">Issue Type</label><br>
-                <select placeholder="Issue Type" required>
-                    <option value=""></option>
+                <select placeholder="Issue Type" style="color: grey;" required>
+                    <option value="">Select Option</option>
                     <option>General Contact</option>
                     <option>Bug Report</option>
                     <option>Feedback</option>
